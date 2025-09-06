@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fche de presentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="boite">
+
+           <!--declare dabord une sorte de variable -->
+           <label id ="nom"> NOM :</label>
+            <!--puis je l'assigne a un type grace a son identifiant -->
+            <input type="text" id="nom" name="NOM"><br><br>
+    
+            <label id ="p">PRENOM:</label>
+            <input type="text" id="p" name="PRENOM"> <br><br>
+
+            <label id="date_de_naissance"> DATE_DE_NAISSANCE : </label>
+            <input type="date" id="date_de_naissance" name="DATE_DE_NAISSANCE" ><br><br>
+
+   
+            <!--lui je lai carement pris sur lAI-->
+            <h3>Choisissez une photo</h3>
+            <input type="file" id="photo" accept="image/*">
+            <img id="prevu" style="max-width: 300px; max-height: 300px; display: none;"> *
+             <h4>voir sa  <a href="prevu"><img src="prevu" alt="ma_photo"></a></h4>
+            <!--je connais pas encore le java script sinon jalais le faire afficher-->
+
+            </div>
+            <br><br>
+             <p class="emplacement">
+                  <!--celui la je lai demander a l'IA-->
+                 <label id="bio" > BIO </label>
+                 <textarea id="bio" rows="6" cols="50" required ></textarea> <br><br>
+            </p>
+
+     <!--maintenant la liste des lien cliquable-->
+     <div class="boite2">
+           <p class="souligne">Mes lien cliquable<br><h5>Cliquer ici pour rejoindre les differents cites</h5></p>
+           <ul>
+                 <li>cliquer pour <a href="https://github.com/">github</a></li>
+                <li>cliquer pour <a href="https://www.linkedin.com/">linkedin</a></li>
+                <li>cliquer pou <a href="https://web.telegram.org/">telegram</a></li>
+                <li>cliquer pour <a href="https://web.whatsapp.com/">wattsapp</a></li>
+
+          </ul>
+    </div>
+     
+    <!--mais reference-->
+    <footer class="position"> <a href="mailto:©2025_SABIDANIEMMANUEL9@gmail.com"> ©2025_SABIDANIEMMANUEL9@gmail.com</a></footer>
+
+</body>
+</html>
+
